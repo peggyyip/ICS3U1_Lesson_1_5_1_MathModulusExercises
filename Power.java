@@ -19,5 +19,6 @@ class Power extends ConsoleProgram {
     dblPower = Math.pow(dblBase, dblExponent);
     System.out.println(dblBase + " to the power of " + dblExponent + " is " + dblPower);
     
+    // accurate to solutions
   }
 }

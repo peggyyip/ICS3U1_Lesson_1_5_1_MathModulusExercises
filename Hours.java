@@ -21,5 +21,6 @@ class Hours extends ConsoleProgram {
     // printing
     System.out.println(intDays + " days and " + intExtraHours + " hours.");
 
+    // accurate to solutions
   }
 }

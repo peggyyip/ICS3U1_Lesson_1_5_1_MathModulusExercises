@@ -24,6 +24,6 @@ class AreaSin extends ConsoleProgram {
      // Output result
      System.out.println("The area is: " + dblArea);
 
-    
+      // accurate to solutions
   }
 }

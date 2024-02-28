@@ -20,6 +20,6 @@ class Km_to_Miles extends ConsoleProgram {
      // Output the results
      System.out.println(dblKilometers + " km is " + dblMiles + " miles.");
  
-    
+     // accurate to solutions
   }
 }

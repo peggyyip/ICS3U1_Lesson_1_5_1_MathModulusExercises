@@ -25,5 +25,6 @@ class Cos3rd extends ConsoleProgram {
      // Output side c
      System.out.println("The length of side c is: " + dblSideC);
     
+      // accurate to solutions
   }
 }

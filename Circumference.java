@@ -12,9 +12,9 @@ class Circumference extends ConsoleProgram {
 
     // calculate and output
     dblRadius = readDouble("Enter radius: ");
-    dblCircumference = (2 * Math.PI * dblRadius);
+    dblCircumference = 2 * Math.PI * dblRadius;
     System.out.println("The circumference of this circle is: " + dblCircumference);
 
-    
+      // accurate to solutions
   }
 }
