@@ -1,8 +1,8 @@
 class Hours extends ConsoleProgram {
 
   /**
-  * Write a program that lets you enter a number of hours, 
-    and that converts it to days and hours. 
+  *
+    Write a program that lets you enter a number of hours, and that converts it to days and hours. 
     For example, 111 hours = 4 days and 15 hours.
   * @author: P.Yip
   */

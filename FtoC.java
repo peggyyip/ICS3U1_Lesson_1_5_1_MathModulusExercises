@@ -1,8 +1,7 @@
 class FtoC extends ConsoleProgram {
 
   /**
-  * Write a program that lets you enter a degree measure in Fahrenheit, 
-    and that prints the result in celsius degree measure:
+  * Write a program that lets you enter a degree measure in Fahrenheit, and that prints the result in celsius degree measure:
     c =5/9(f - 32) (Note: be careful with integer division)
   * @author: P. Yip
   */
@@ -10,14 +9,14 @@ class FtoC extends ConsoleProgram {
   public void run() {
     // naming variables
     double dblDegreeinFahrenheit;
-    int intDegreeinCelsius;
+    double dblDegreeinCelsius;
 
     // calculations
     dblDegreeinFahrenheit = readDouble("Enter a degree measure in Fahrenheit: ");
-    intDegreeinCelsius = ((int)dblDegreeinFahrenheit - 32) *5/9;
+    dblDegreeinCelsius = (dblDegreeinFahrenheit - 32) * 5.0 / 9.0;
 
     // printing
-    System.out.println("c = " + intDegreeinCelsius);
+    System.out.println("c = " + dblDegreeinCelsius);
   
   }
 }
